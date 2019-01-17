@@ -1,0 +1,49 @@
+body {
+    background-color: #FBFBFB;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn-norris {
+    width: 400px;
+    height: 60px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Bitter', serif;
+    outline: none;
+    border: solid;
+    border-color: #fffF;
+    border-radius: 6px;
+    border-width: 1px;
+    background-color: #666633;
+    font-family: 'Bitter', serif;
+    font-size: 25px;
+    cursor: pointer;
+    &:hover {
+        background-color: #fff;
+        color: #666633;
+        transition: all .4s ease-in-out;
+        border: solid;
+        border-color: #666633;
+        border-radius: 6px;
+        border-width: 1px;
+    }
+}
+
+.btn {
+    text-align: center;
+    margin-top: 15px;
+}
+
+p#joke {
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    color: #666633;
+}
